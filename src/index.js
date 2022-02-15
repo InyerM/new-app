@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
+import Card from './components/card'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/*
+const user = {
+  firstName: 'Inyer',
+  lastName: 'Marín',
+  avatar: 'https://cdn-icons-png.flaticon.com/512/147/147144.png'
+}
+
+function getName(user){
+  return `${user.firstName} ${user.lastName}`
+}
+
+function getGreeting(user){
+  if(user){
+    return <h1>Hello {user.firstName}</h1>
+  }
+  return <h1>Hello Stranger</h1>
+}
+
+const element = <img src={user.avatar}/>*/
+
+const container = document.getElementById('root')
+
+ReactDOM.render(<Card/>, container)
