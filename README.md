@@ -1,3 +1,3 @@
 # NEW-APP
 
-This app is part of a course of React that am I doing
+This app is part of a course of React that I am doing
